@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/work/project/android-api-demo/app/libs/maps.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="8db6e10e1d07a37d1f83a819e234589b4f674bba">
+        <dex dex="/work/project/android-api-demo/app/build/intermediates/pre-dexed/debug/maps-47eb9cd3ca2dd08213b930c2c0d964e7eda30832.jar" />
+    </item>
+
+</items>
