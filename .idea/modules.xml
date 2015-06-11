@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-api-demo.iml" filepath="$PROJECT_DIR$/android-api-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-api-test/android-api-test.iml" filepath="$PROJECT_DIR$/android-api-test/android-api-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-android-demo/basic-android-demo.iml" filepath="$PROJECT_DIR$/basic-android-demo/basic-android-demo.iml" />
     </modules>
   </component>

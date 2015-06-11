@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/work/project/android-api-demo/basic-android-demo/src/main/assets"><file name="simple.txt" path="/work/project/android-api-demo/basic-android-demo/src/main/assets/simple.txt"/></source></dataSet><dataSet config="debug"><source path="/work/project/android-api-demo/basic-android-demo/src/debug/assets"/></dataSet></merger>

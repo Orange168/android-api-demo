@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/basic-android-demo/src/main/java/sundy/android/demo/activityandintent/StartNewActivity.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/basic-android-demo/src/main/java/sundy/android/demo/broadcastreceiver/MyBroadcastReceiver.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/basic-android-demo/src/main/java/sundy/android/demo/broadcastreceiver/SMSReceiver.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/basic-android-demo/src/main/java/sundy/android/demo/broadcastreceiver/SendBroadcastActivity.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/basic-android-demo/src/main/java/sundy/android/demo/service/MusicServiceActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/basic-android-demo/src/main/java/api/android/demo/broadcastreceiver/MyBroadcastReceiver.java" charset="UTF-8" />
   </component>
 </project>

@@ -2,11 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/work/project/android-api-demo/app/libs/maps.jar"
+        jar="/work/project/android-api-demo/android-api-test/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/work/project/android-api-demo/android-api-test/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-32b48c9324824515e90ef663ff74128c5647072c.jar" />
+    </item>
+    <item
+        jar="/work/project/android-api-demo/android-api-test/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/work/project/android-api-demo/android-api-test/build/intermediates/pre-dexed/debug/classes-d8b7bb6f30a1f7e2183b403d30572c8a25b82318.jar" />
+    </item>
+    <item
+        jar="/usr/share/android-sdk/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/work/project/android-api-demo/android-api-test/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-9e45bfd846ff859edf8b2c70915bf59ce8880f70.jar" />
+    </item>
+    <item
+        jar="/work/project/android-api-demo/basic-android-demo/libs/maps.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="8db6e10e1d07a37d1f83a819e234589b4f674bba">
-        <dex dex="/work/project/android-api-demo/app/build/intermediates/pre-dexed/debug/maps-47eb9cd3ca2dd08213b930c2c0d964e7eda30832.jar" />
+        <dex dex="/work/project/android-api-demo/basic-android-demo/build/intermediates/pre-dexed/debug/maps-a1c444218b872153930d529735938d9b76842eb3.jar" />
+    </item>
+    <item
+        jar="/work/project/android-api-demo/android-api-test/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/work/project/android-api-demo/android-api-test/build/intermediates/pre-dexed/debug/classes-943cf48aa478d68a6ce2c5c73744893c4a92a97e.jar" />
     </item>
 
 </items>

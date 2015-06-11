@@ -9,6 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android-api-test" />
             <option value="$PROJECT_DIR$/basic-android-demo" />
           </set>
         </option>
