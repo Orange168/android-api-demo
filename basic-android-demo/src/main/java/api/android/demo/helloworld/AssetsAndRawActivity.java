@@ -27,7 +27,7 @@ public class AssetsAndRawActivity extends Activity {
 	}
 	
 	/**
-	 * ��assets��ȡ������ʾ
+	 *
 	 */
 	private void readFromAssets()
 	{
@@ -45,7 +45,7 @@ public class AssetsAndRawActivity extends Activity {
 	}
 	
 	/**
-	 * ��raw��ȡ������ʾ
+	 *
 	 */
 	private void readFromRaw()
 	{
@@ -59,7 +59,7 @@ public class AssetsAndRawActivity extends Activity {
 	}
 	
 	
-	/**��ȡ��
+	/**
 	 * @param is
 	 * @return
 	 */

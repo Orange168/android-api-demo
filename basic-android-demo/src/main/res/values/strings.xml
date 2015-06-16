@@ -19,7 +19,7 @@
     <string name="btnAccelerometerText">加速度感应</string>
     
     <string name="hello">Hello World, LauncherActivity!</string>
-    <string name="app_name">AndroidBaseDemo</string>
+    <string name="app_name">Api</string>
     <string name="process_activitymaintest">Lesson4/ActivitySavaState</string>
     <string name="lesson2_helloworld">Stage2_Helloworld/HelloWorld</string>
     <string name="lesson2_AssetsAndRaw">Stage2_Helloworld/AssetsAndRaw</string>

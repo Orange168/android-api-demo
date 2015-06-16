@@ -40,7 +40,7 @@ containing a value of this type.
         public static final int solid_yellow=0x7f090003;
     }
     public static final class drawable {
-        public static final int blue=0x7f020023;
+        public static final int blue=0x7f020022;
         public static final int btn_playback_ic_pause_small=0x7f020000;
         public static final int btn_playback_ic_play_small=0x7f020001;
         public static final int btn_playback_small_normal=0x7f020002;
@@ -58,30 +58,29 @@ containing a value of this type.
         public static final int gesture2=0x7f02000e;
         public static final int gesture3=0x7f02000f;
         public static final int gesture4=0x7f020010;
-        public static final int green=0x7f020024;
+        public static final int green=0x7f020023;
         public static final int ic_launcher=0x7f020011;
         public static final int icon=0x7f020012;
         public static final int imageanim=0x7f020013;
-        public static final int mapoverlay=0x7f020014;
-        public static final int name=0x7f020015;
-        public static final int news=0x7f020016;
-        public static final int pin=0x7f020017;
-        public static final int portal=0x7f020018;
-        public static final int quoted_bar=0x7f020019;
-        public static final int red=0x7f020025;
-        public static final int sample_0=0x7f02001a;
-        public static final int sample_1=0x7f02001b;
-        public static final int sample_2=0x7f02001c;
-        public static final int sample_3=0x7f02001d;
-        public static final int sample_4=0x7f02001e;
-        public static final int sample_5=0x7f02001f;
-        public static final int sample_6=0x7f020020;
-        public static final int sample_7=0x7f020021;
-        public static final int screen_background_black=0x7f020026;
-        public static final int simple_button=0x7f020022;
-        public static final int translucent_background=0x7f020027;
-        public static final int transparent_background=0x7f020028;
-        public static final int yellow=0x7f020029;
+        public static final int name=0x7f020014;
+        public static final int news=0x7f020015;
+        public static final int pin=0x7f020016;
+        public static final int portal=0x7f020017;
+        public static final int quoted_bar=0x7f020018;
+        public static final int red=0x7f020024;
+        public static final int sample_0=0x7f020019;
+        public static final int sample_1=0x7f02001a;
+        public static final int sample_2=0x7f02001b;
+        public static final int sample_3=0x7f02001c;
+        public static final int sample_4=0x7f02001d;
+        public static final int sample_5=0x7f02001e;
+        public static final int sample_6=0x7f02001f;
+        public static final int sample_7=0x7f020020;
+        public static final int screen_background_black=0x7f020025;
+        public static final int simple_button=0x7f020021;
+        public static final int translucent_background=0x7f020026;
+        public static final int transparent_background=0x7f020027;
+        public static final int yellow=0x7f020028;
     }
     public static final class id {
         public static final int ButtonAsynchPrepare=0x7f0d0024;

@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/android-api-test" />
             <option value="$PROJECT_DIR$/basic-android-demo" />
+            <option value="$PROJECT_DIR$/new-android-api" />
           </set>
         </option>
       </GradleProjectSettings>

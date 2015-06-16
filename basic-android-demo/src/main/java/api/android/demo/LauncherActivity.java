@@ -48,8 +48,8 @@ public class LauncherActivity extends ListActivity {
 		// TODO Auto-generated method stub
 		super.onDestroy();
 		Log.i(CommonConstants.LOGCAT_TAG_NAME, "Main Activity Destory")  ;
-		Process.killProcess(Process.myPid())  ;
-		System.exit(0) ;
+//		Process.killProcess(Process.myPid())  ;
+//		System.exit(0) ;
 	}
 
 

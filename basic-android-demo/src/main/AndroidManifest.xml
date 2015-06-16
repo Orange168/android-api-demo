@@ -17,7 +17,7 @@
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <application
-        android:name=".SundyAndroidDemoApplication"
+        android:name=".App"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name" >
 
@@ -716,11 +716,15 @@
         <service android:name=".service.BeginService" />
         <service android:name=".service.BeginIntentService" />
         <service android:name=".service.MusicService" />
+        <service android:name=".service.MyService" android:enabled="true" android:isolatedProcess="true"/>
 
         <receiver android:name=".broadcastreceiver.MyBroadcastReceiver" >
             <intent-filter>
                 <action android:name="api.android.demo.HiMessage" />
             </intent-filter>
+        </receiver>
+        <receiver android:name=".broadcastreceiver.PeekServiceRecieve" android:enabled="true" >
+
         </receiver>
         <receiver android:name=".broadcastreceiver.SMSReceiver" >
             <intent-filter android:priority="1" >
@@ -744,6 +748,6 @@
         </provider>
     </application>
 
-    <uses-sdk android:minSdkVersion="3" />
+
 
 </manifest>

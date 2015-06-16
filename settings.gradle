@@ -1,1 +1,1 @@
-include ':basic-android-demo', ':android-api-test'
+include ':basic-android-demo', ':android-api-test', ':new-android-api'

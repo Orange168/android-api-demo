@@ -190,7 +190,7 @@ public class MyMapActivity extends MapActivity {
 			Paint paint = new Paint() ;
 			Point outPoint = new Point();
 			mapView.getProjection().toPixels(geoPoint, outPoint) ;
-			Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.drawable.mapoverlay)  ;
+			Bitmap bmp = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher)  ;
 			canvas.drawBitmap(bmp, outPoint.x, outPoint.y, paint)  ;
 			return true ;
 			
