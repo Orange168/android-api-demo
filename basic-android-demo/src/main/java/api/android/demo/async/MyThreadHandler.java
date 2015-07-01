@@ -1,6 +1,6 @@
 package api.android.demo.async;
 
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;

@@ -4,7 +4,7 @@
 package api.android.demo.async;
 
 import api.android.demo.R;
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;

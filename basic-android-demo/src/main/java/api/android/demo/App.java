@@ -6,7 +6,7 @@ package api.android.demo;
 import android.app.Application;
 import android.content.res.Configuration;
 import android.util.Log;
-import api.android.demo.configration.*;
+import api.android.demo.configuration.*;
 
 /**
  * @author sundy

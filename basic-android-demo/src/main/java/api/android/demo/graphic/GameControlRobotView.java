@@ -1,8 +1,6 @@
 package api.android.demo.graphic;
 
-import java.net.InterfaceAddress;
-
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;

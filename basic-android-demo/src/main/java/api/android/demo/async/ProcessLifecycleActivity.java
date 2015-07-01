@@ -5,7 +5,7 @@ package api.android.demo.async;
 
 import java.util.List;
 
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningAppProcessInfo;

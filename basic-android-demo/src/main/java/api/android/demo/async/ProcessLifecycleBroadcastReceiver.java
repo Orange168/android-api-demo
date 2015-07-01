@@ -1,6 +1,6 @@
 package api.android.demo.async;
 
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

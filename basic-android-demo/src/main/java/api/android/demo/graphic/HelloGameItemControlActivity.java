@@ -1,6 +1,6 @@
 package api.android.demo.graphic;
 
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import api.android.demo.graphic.GameControlRobotView.OnGameKeyDownListner;
 import android.app.Activity;
 import android.os.Bundle;

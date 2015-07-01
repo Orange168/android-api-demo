@@ -6,7 +6,7 @@ import android.media.MediaPlayer;
 import android.os.IBinder;
 import android.util.Log;
 
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 
 public class MusicService extends Service {
 

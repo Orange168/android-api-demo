@@ -1,7 +1,7 @@
 package api.android.demo.service;
 
 import api.android.demo.R;
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import api.android.demo.service.BeginService.MyBinder;
 import android.app.Activity;
 import android.content.ComponentName;

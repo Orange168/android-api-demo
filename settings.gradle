@@ -1,1 +1,2 @@
-include ':basic-android-demo', ':android-api-test', ':new-android-api'
+include ':basic-android-demo', ':android-api-test', ':new-android-api', ':Tech_For_Android'
+include ':softKeyBoard'

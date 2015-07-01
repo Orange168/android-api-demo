@@ -3,11 +3,10 @@
  */
 package api.android.demo.service;
 
-import api.android.demo.configration.CommonConstants;
-import android.R;
+import api.android.demo.configuration.CommonConstants;
+
 import android.app.Service;
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;

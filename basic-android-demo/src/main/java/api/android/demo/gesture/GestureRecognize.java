@@ -2,7 +2,7 @@ package api.android.demo.gesture;
 
 import java.util.ArrayList;
 
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 
 import android.content.Context;
 import android.content.Intent;

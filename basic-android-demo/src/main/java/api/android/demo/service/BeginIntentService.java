@@ -1,6 +1,6 @@
 package api.android.demo.service;
 
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import android.app.IntentService;
 import android.content.Intent;
 import android.os.IBinder;

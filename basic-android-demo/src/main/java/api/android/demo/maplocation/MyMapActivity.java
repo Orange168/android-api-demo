@@ -1,7 +1,7 @@
 package api.android.demo.maplocation;
 
 import api.android.demo.R;
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;

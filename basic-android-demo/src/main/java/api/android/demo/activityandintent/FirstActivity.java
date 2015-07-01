@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import api.android.demo.R;
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 
 public class FirstActivity extends Activity {
     /** Called when the activity is first created. */

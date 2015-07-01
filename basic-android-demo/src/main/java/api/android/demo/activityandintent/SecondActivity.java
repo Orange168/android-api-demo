@@ -1,9 +1,7 @@
 package api.android.demo.activityandintent;
 
 import api.android.demo.R;
-import api.android.demo.R.id;
-import api.android.demo.R.layout;
-import api.android.demo.configration.CommonConstants;
+import api.android.demo.configuration.CommonConstants;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

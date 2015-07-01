@@ -1,18 +1,6 @@
 package api.android.demo;
 
-import java.text.Collator;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import api.android.demo.configration.CommonConstants;
-
 import android.app.ListActivity;
-import android.os.*;
-import android.os.Process;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -21,6 +9,16 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+
+import java.text.Collator;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import api.android.demo.configuration.CommonConstants;
 
 public class LauncherActivity extends ListActivity {
     /** Called when the activity is first created. */
