@@ -34,6 +34,7 @@
         </activity>
         <activity
             android:name=".helloworld.HelloWorld"
+            android:clearTaskOnLaunch="true"
             android:label="@string/lesson2_helloworld" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -88,7 +89,24 @@
             android:name=".activityandintent.SecondActivity"
             android:label="SecondActivity"
             android:exported="true"
-            android:taskAffinity=""
+            android:allowTaskReparenting="false"
+            android:launchMode="standard"
+            >
+        </activity>
+        <activity
+            android:name=".activityandintent.TaskReparentingActivity"
+            android:label="SecondActivity"
+            android:exported="true"
+            android:allowTaskReparenting="true"
+            android:launchMode="standard"
+            >
+        </activity>
+        <activity
+            android:name=".activityandintent.TaskReparentingActivity2"
+            android:label="SecondActivity"
+            android:exported="true"
+            android:allowTaskReparenting="true"
+            android:launchMode="singleTask"
             >
         </activity>
         <activity
@@ -693,6 +711,20 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".uiadv.fragActivity.FragmentBasicActivity"
+                  android:label="@string/fragment_basic">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".uiadv.fragActivity.FragmentListArray"
+                  android:label="@string/fragment_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>

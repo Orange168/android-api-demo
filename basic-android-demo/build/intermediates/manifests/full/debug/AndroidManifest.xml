@@ -39,6 +39,7 @@
         </activity>
         <activity
             android:name="api.android.demo.helloworld.HelloWorld"
+            android:clearTaskOnLaunch="true"
             android:label="@string/lesson2_helloworld" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -92,9 +93,24 @@
         </activity>
         <activity
             android:name="api.android.demo.activityandintent.SecondActivity"
+            android:allowTaskReparenting="false"
             android:exported="true"
             android:label="SecondActivity"
-            android:taskAffinity="" >
+            android:launchMode="standard" >
+        </activity>
+        <activity
+            android:name="api.android.demo.activityandintent.TaskReparentingActivity"
+            android:allowTaskReparenting="true"
+            android:exported="true"
+            android:label="SecondActivity"
+            android:launchMode="standard" >
+        </activity>
+        <activity
+            android:name="api.android.demo.activityandintent.TaskReparentingActivity2"
+            android:allowTaskReparenting="true"
+            android:exported="true"
+            android:label="SecondActivity"
+            android:launchMode="singleTask" >
         </activity>
         <activity
             android:name="api.android.demo.activityandintent.ThirdActivity"
@@ -697,6 +713,24 @@
         <activity
             android:name="api.android.demo.uiadv.animation.ViewFlipperActivity"
             android:label="@string/animation_viewflipper" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="api.android.demo.uiadv.fragActivity.FragmentBasicActivity"
+            android:label="@string/fragment_basic" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="api.android.demo.uiadv.fragActivity.FragmentListArray"
+            android:label="@string/fragment_activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:2:1-753:12
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:2:1-785:12
 	package
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml
@@ -58,7 +58,7 @@ ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidMan
 	android:name
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:18:22-78
 application
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:19:5-749:19
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:19:5-781:19
 	android:label
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:22:9-41
 	android:icon
@@ -86,601 +86,641 @@ ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidMan
 	android:name
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:32:27-74
 activity#api.android.demo.helloworld.HelloWorld
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:35:9-43:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:35:9-44:20
+	android:clearTaskOnLaunch
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:37:13-45
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:37:13-55
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:38:13-55
 	android:name
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:36:13-50
 intent-filter#android.intent.action.MAIN+android.intent.category.SAMPLE_CODE
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:38:13-42:29
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:39:13-43:29
 category#android.intent.category.SAMPLE_CODE
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:41:17-80
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:42:17-80
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:41:27-77
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:42:27-77
 activity#api.android.demo.helloworld.AssetsAndRawActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:44:9-52:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:45:9-53:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:46:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:47:13-57
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:45:13-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:46:13-60
 activity#api.android.demo.activityandintent.StartNewActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:53:9-61:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:54:9-62:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:55:13-61
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:56:13-61
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:54:13-63
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:55:13-63
 activity#api.android.demo.activityandintent.NewActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:62:9-65:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:63:9-66:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:64:13-40
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:65:13-40
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:63:13-58
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:64:13-58
 activity#api.android.demo.activityandintent.FirstActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:66:9-76:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:67:9-77:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:70:13-61
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:71:13-61
 	android:launchMode
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:69:13-44
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:70:13-44
 	android:exported
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:68:13-36
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:69:13-36
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:67:13-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:68:13-60
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.SAMPLE_CODE
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:71:13-75:29
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:72:13-76:29
 activity#api.android.demo.activityandintent.LifecycleActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:77:9-86:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:78:9-87:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:80:13-62
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:81:13-62
 	android:configChanges
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:79:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:80:13-57
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:78:13-64
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:79:13-64
 activity#api.android.demo.activityandintent.SecondActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:87:9-93:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:88:9-95:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:89:13-43
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:90:13-43
+	android:launchMode
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:93:13-42
 	android:exported
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:90:13-36
-	android:taskAffinity
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:91:13-36
+	android:allowTaskReparenting
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:92:13-49
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:88:13-61
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:89:13-61
+activity#api.android.demo.activityandintent.TaskReparentingActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:96:9-103:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:98:13-43
+	android:launchMode
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:101:13-42
+	android:exported
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:99:13-36
+	android:allowTaskReparenting
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:100:13-48
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:97:13-70
+activity#api.android.demo.activityandintent.TaskReparentingActivity2
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:104:9-111:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:106:13-43
+	android:launchMode
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:109:13-44
+	android:exported
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:107:13-36
+	android:allowTaskReparenting
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:108:13-48
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:105:13-71
 activity#api.android.demo.activityandintent.ThirdActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:94:9-98:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:112:9-116:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:96:13-42
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:114:13-42
 	android:theme
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:97:13-55
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:115:13-55
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:95:13-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:113:13-60
 activity#api.android.demo.service.MusicServiceActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:99:9-107:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:101:13-65
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:100:13-57
-activity#api.android.demo.service.BeginServiceActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:108:9-116:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:110:13-65
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:109:13-57
-activity#api.android.demo.uibase.BaseDialogActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:117:9-125:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:119:13-63
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:119:13-65
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:118:13-54
-activity#api.android.demo.uibase.ViewActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:118:13-57
+activity#api.android.demo.service.BeginServiceActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:126:9-134:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:128:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:128:13-65
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:127:13-48
-activity#api.android.demo.uibase.SundyListActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:127:13-57
+activity#api.android.demo.uibase.BaseDialogActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:135:9-143:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:137:13-62
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:137:13-63
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:136:13-53
-activity#api.android.demo.uibase.MyLayoutActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:136:13-54
+activity#api.android.demo.uibase.ViewActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:144:9-152:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:146:13-61
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:146:13-57
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:145:13-52
-activity#api.android.demo.uibase.MyGridViewActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:145:13-48
+activity#api.android.demo.uibase.SundyListActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:153:9-161:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:155:13-63
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:155:13-62
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:154:13-54
-activity#api.android.demo.uibase.FullScreenGallery
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:154:13-53
+activity#api.android.demo.uibase.MyLayoutActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:162:9-170:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:164:13-70
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:164:13-61
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:163:13-53
-activity#api.android.demo.uibase.FormWidgetActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:163:13-52
+activity#api.android.demo.uibase.MyGridViewActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:171:9-179:20
 	android:label
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:173:13-63
 	android:name
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:172:13-54
+activity#api.android.demo.uibase.FullScreenGallery
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:180:9-188:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:182:13-70
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:181:13-53
+activity#api.android.demo.uibase.FormWidgetActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:189:9-197:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:191:13-63
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:190:13-54
 activity#api.android.demo.uibase.StyleActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:180:9-189:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:198:9-207:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:182:13-58
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:200:13-58
 	android:theme
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:183:13-50
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:201:13-50
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:181:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:199:13-49
 activity#api.android.demo.uibase.MyGalleryActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:190:9-198:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:192:13-62
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:191:13-53
-activity#api.android.demo.uibase.NotificationSampleActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:199:9-207:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:201:13-71
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:200:13-62
-activity#api.android.demo.uibase.MyDrawerActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:208:9-216:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:210:13-61
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:210:13-62
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:209:13-52
-activity#api.android.demo.uibase.ViewGroupActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:209:13-53
+activity#api.android.demo.uibase.NotificationSampleActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:217:9-225:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:219:13-62
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:219:13-71
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:218:13-53
-activity#api.android.demo.uibase.MyListViewActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:218:13-62
+activity#api.android.demo.uibase.MyDrawerActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:226:9-234:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:228:13-59
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:228:13-61
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:227:13-54
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:227:13-52
+activity#api.android.demo.uibase.ViewGroupActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:235:9-243:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:237:13-62
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:236:13-53
+activity#api.android.demo.uibase.MyListViewActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:244:9-252:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:246:13-59
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:245:13-54
 activity#api.android.demo.datastore.SharePreferenceDemo
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:235:9-244:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:253:9-262:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:238:13-49
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:237:13-64
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:236:13-58
-activity#api.android.demo.datastore.FileOperationDemo
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:245:9-254:20
-	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:248:13-49
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:247:13-62
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:246:13-56
-activity#api.android.demo.datastore.SQLiteDemo
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:255:9-264:20
-	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:258:13-49
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:257:13-55
-	android:name
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:256:13-49
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:255:13-64
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:254:13-58
+activity#api.android.demo.datastore.FileOperationDemo
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:263:9-272:20
+	android:screenOrientation
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:266:13-49
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:265:13-62
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:264:13-56
+activity#api.android.demo.datastore.SQLiteDemo
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:273:9-282:20
+	android:screenOrientation
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:276:13-49
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:275:13-55
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:274:13-49
 activity#api.android.demo.datastore.NetworkDemo
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:265:9-274:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:283:9-292:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:268:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:286:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:267:13-56
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:285:13-56
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:266:13-50
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:284:13-50
 activity#api.android.demo.contentprovider.ContentResolverActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:275:9-284:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:293:9-302:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:278:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:296:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:277:13-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:295:13-60
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:276:13-68
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:294:13-68
 activity#api.android.demo.broadcastreceiver.SendBroadcastActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:285:9-294:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:303:9-312:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:288:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:306:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:287:13-58
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:305:13-58
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:286:13-68
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:304:13-68
 activity#api.android.demo.multimedia.AudioHelloworld
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:295:9-304:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:313:9-322:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:298:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:316:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:297:13-63
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:315:13-63
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:296:13-55
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:314:13-55
 activity#api.android.demo.java4android.InstanceofActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:305:9-314:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:323:9-332:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:308:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:326:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:307:13-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:325:13-60
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:306:13-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:324:13-60
 activity#api.android.demo.java4android.InterationActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:315:9-324:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:333:9-342:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:318:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:336:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:317:13-68
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:335:13-68
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:316:13-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:334:13-60
 activity#api.android.demo.java4android.InnerClassAdvActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:325:9-334:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:343:9-352:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:328:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:346:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:327:13-63
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:345:13-63
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:326:13-63
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:344:13-63
 activity#api.android.demo.java4android.GenericActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:335:9-344:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:353:9-362:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:338:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:356:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:337:13-65
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:355:13-65
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:336:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:354:13-57
 activity#api.android.demo.java4android.ThreadActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:345:9-354:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:363:9-372:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:348:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:366:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:347:13-64
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:365:13-64
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:346:13-56
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:364:13-56
 activity#api.android.demo.async.WholeAsyncActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:356:9-364:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:358:13-55
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:357:13-53
-activity#api.android.demo.async.ProcessLifecycleActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:365:9-373:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:367:13-54
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:366:13-59
-activity#api.android.demo.async.ThreadConceptActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:374:9-382:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:376:13-58
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:376:13-55
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:375:13-56
-activity#api.android.demo.async.HandlerConceptActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:375:13-53
+activity#api.android.demo.async.ProcessLifecycleActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:383:9-391:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:385:13-59
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:385:13-54
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:384:13-57
-activity#api.android.demo.async.AsyncTaskTestActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:384:13-59
+activity#api.android.demo.async.ThreadConceptActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:392:9-400:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:394:13-54
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:394:13-58
 	android:name
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:393:13-56
-activity#api.android.demo.gesture.GestureShow1Activity
+activity#api.android.demo.async.HandlerConceptActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:401:9-409:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:403:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:403:13-59
 	android:name
 		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:402:13-57
+activity#api.android.demo.async.AsyncTaskTestActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:410:9-418:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:412:13-54
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:411:13-56
+activity#api.android.demo.gesture.GestureShow1Activity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:419:9-427:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:421:13-57
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:420:13-57
 activity#api.android.demo.gesture.GestureShow2Activity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:413:9-416:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:431:9-434:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:415:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:433:13-57
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:414:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:432:13-57
 activity#api.android.demo.gesture.GestureShow3Activity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:417:9-420:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:435:9-438:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:419:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:437:13-57
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:418:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:436:13-57
 activity#api.android.demo.gesture.GestureShow4Activity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:421:9-424:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:439:9-442:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:423:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:441:13-57
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:422:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:440:13-57
 activity#api.android.demo.sensor.ActivityMainList
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:425:9-433:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:427:13-60
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:426:13-52
-activity#api.android.demo.sensor.ActivityMain
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:434:9-442:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:436:13-56
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:435:13-48
-activity#api.android.demo.sensor.ActivityMain2
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:443:9-451:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:445:13-57
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:445:13-60
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:444:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:444:13-52
+activity#api.android.demo.sensor.ActivityMain
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:452:9-460:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:454:13-56
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:453:13-48
+activity#api.android.demo.sensor.ActivityMain2
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:461:9-469:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:463:13-57
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:462:13-49
 activity#api.android.demo.sensor.ActivitySensorShow
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:452:9-454:57
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:470:9-472:57
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:454:13-54
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:472:13-54
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:453:13-54
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:471:13-54
 activity#api.android.demo.sensor.CompassDemo
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:455:9-463:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:457:13-55
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:456:13-47
-activity#api.android.demo.sensor.SensorPlayerActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:464:9-472:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:466:13-58
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:465:13-56
-activity#api.android.demo.maplocation.MyMapActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:473:9-481:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:475:13-54
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:475:13-55
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:474:13-54
-activity#api.android.demo.graphic.HelloGameItemControlActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:474:13-47
+activity#api.android.demo.sensor.SensorPlayerActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:482:9-490:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:484:13-73
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:484:13-58
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:483:13-65
-activity#api.android.demo.graphic.DrawableResourceActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:483:13-56
+activity#api.android.demo.maplocation.MyMapActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:491:9-499:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:493:13-61
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:493:13-54
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:492:13-61
-activity#api.android.demo.graphic.DrawableResourceXMLActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:492:13-54
+activity#api.android.demo.graphic.HelloGameItemControlActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:500:9-508:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:502:13-64
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:502:13-73
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:501:13-64
-activity#api.android.demo.graphic.CustomDrawableActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:501:13-65
+activity#api.android.demo.graphic.DrawableResourceActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:509:9-517:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:511:13-59
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:511:13-61
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:510:13-59
-activity#api.android.demo.maplocation.GeoDemoActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:510:13-61
+activity#api.android.demo.graphic.DrawableResourceXMLActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:518:9-526:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:520:13-56
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:520:13-64
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:519:13-56
-activity#api.android.demo.sqlite.UserManagerActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:519:13-64
+activity#api.android.demo.graphic.CustomDrawableActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:527:9-535:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:529:13-55
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:529:13-59
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:528:13-55
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:528:13-59
+activity#api.android.demo.maplocation.GeoDemoActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:536:9-544:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:538:13-56
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:537:13-56
+activity#api.android.demo.sqlite.UserManagerActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:545:9-553:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:547:13-55
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:546:13-55
 activity#api.android.demo.widget.ShortcutActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:536:9-546:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:554:9-564:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:538:13-52
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:556:13-52
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:537:13-52
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:555:13-52
 intent-filter#android.intent.action.CREATE_SHORTCUT
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:539:13-541:29
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:557:13-559:29
 action#android.intent.action.CREATE_SHORTCUT
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:540:17-80
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:558:17-80
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:540:25-77
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:558:25-77
 meta-data#sundymeta
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:543:13-545:75
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:561:13-563:75
 	android:value
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:545:17-72
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:563:17-72
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:544:17-41
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:562:17-41
 activity#api.android.demo.contentprovider.ContactContractActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:547:9-555:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:565:9-573:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:549:13-68
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:567:13-68
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:548:13-68
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:566:13-68
 activity#api.android.demo.uiadv.style.StyleActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:558:9-566:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:576:9-584:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:560:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:578:13-49
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:559:13-54
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:577:13-54
 activity#api.android.demo.uiadv.animation.Rotate3DActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:567:9-576:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:585:9-594:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:569:13-55
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:587:13-55
 	android:windowAnimationStyle
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:570:13-76
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:588:13-76
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:568:13-61
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:586:13-61
 activity#api.android.demo.uiadv.style.BubbleThemeActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:577:9-586:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:595:9-604:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:579:13-54
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:597:13-54
 	android:theme
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:580:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:598:13-49
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:578:13-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:596:13-60
 activity#api.android.demo.uiadv.style.BlurThemeActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:587:9-596:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:605:9-614:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:589:13-52
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:607:13-52
 	android:theme
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:590:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:608:13-49
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:588:13-58
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:606:13-58
 activity#api.android.demo.uiadv.skin.ThemeSkinActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:597:9-605:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:599:13-51
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:598:13-57
-activity#api.android.demo.uiadv.skin.LayoutSkinActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:606:9-614:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:608:13-52
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:607:13-58
-activity#api.android.demo.uiadv.performance.DelayLoadActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:615:9-623:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:617:13-58
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:617:13-51
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:616:13-64
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:616:13-57
+activity#api.android.demo.uiadv.skin.LayoutSkinActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:624:9-632:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:626:13-52
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:625:13-58
+activity#api.android.demo.uiadv.performance.DelayLoadActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:633:9-641:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:635:13-58
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:634:13-64
 activity#api.android.demo.uiadv.performance.FastSwitchActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:624:9-633:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:642:9-651:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:627:13-59
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:645:13-59
 	android:configChanges
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:626:13-63
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:644:13-63
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:625:13-65
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:643:13-65
 activity#api.android.demo.uiadv.animation.AnimationActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:634:9-643:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:652:9-661:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:636:13-62
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:654:13-62
 	android:theme
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:637:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:655:13-49
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:635:13-62
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:653:13-62
 activity#api.android.demo.uiadv.shake_desk.ShakeDesktopActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:644:9-653:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:662:9-671:20
 	android:screenOrientation
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:647:13-49
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:665:13-49
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:646:13-52
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:664:13-52
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:645:13-66
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:663:13-66
 activity#api.android.demo.uiadv.animation.FadeAnimationActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:654:9-662:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:656:13-60
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:655:13-66
-activity#api.android.demo.uiadv.animation.BaseTweenAnimationActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:663:9-671:20
-	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:665:13-65
-	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:664:13-71
-activity#api.android.demo.uiadv.animation.BaseFrameAnimation
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:672:9-680:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:674:13-65
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:674:13-60
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:673:13-63
-activity#api.android.demo.uiadv.animation.SimpleDragSample
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:673:13-66
+activity#api.android.demo.uiadv.animation.BaseTweenAnimationActivity
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:681:9-689:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:683:13-63
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:683:13-65
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:682:13-61
-activity#api.android.demo.uiadv.animation.ViewFlipperActivity
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:682:13-71
+activity#api.android.demo.uiadv.animation.BaseFrameAnimation
 ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:690:9-698:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:692:13-58
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:692:13-65
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:691:13-64
-activity#api.android.demo.widget.MetaDataActivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:702:9-714:20
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:691:13-63
+activity#api.android.demo.uiadv.animation.SimpleDragSample
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:699:9-707:20
 	android:label
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:704:13-52
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:701:13-63
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:703:13-52
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:700:13-61
+activity#api.android.demo.uiadv.animation.ViewFlipperActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:708:9-716:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:710:13-58
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:709:13-64
+activity#api.android.demo.uiadv.fragActivity.FragmentBasicActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:717:9-723:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:718:19-57
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:717:19-75
+activity#api.android.demo.uiadv.fragActivity.FragmentListArray
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:724:9-730:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:725:19-60
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:724:19-71
+activity#api.android.demo.widget.MetaDataActivity
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:734:9-746:20
+	android:label
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:736:13-52
+	android:name
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:735:13-52
 meta-data#api.android.demo.widget.metaactivity
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:711:13-713:58
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:743:13-745:58
 	android:value
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:713:17-55
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:745:17-55
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:712:17-68
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:744:17-68
 service#api.android.demo.service.BeginService
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:716:9-57
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:748:9-57
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:716:18-54
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:748:18-54
 service#api.android.demo.service.BeginIntentService
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:717:9-63
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:749:9-63
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:717:18-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:749:18-60
 service#api.android.demo.service.MusicService
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:718:9-57
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:750:9-57
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:718:18-54
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:750:18-54
 service#api.android.demo.service.MyService
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:719:9-107
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:751:9-107
 	android:enabled
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:719:52-74
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:751:52-74
 	android:isolatedProcess
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:719:75-105
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:751:75-105
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:719:18-51
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:751:18-51
 receiver#api.android.demo.broadcastreceiver.MyBroadcastReceiver
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:721:9-725:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:753:9-757:20
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:721:19-72
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:753:19-72
 intent-filter#api.android.demo.HiMessage
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:722:13-724:29
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:754:13-756:29
 action#api.android.demo.HiMessage
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:723:17-69
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:755:17-69
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:723:25-66
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:755:25-66
 receiver#api.android.demo.broadcastreceiver.PeekServiceRecieve
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:726:9-728:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:758:9-760:20
 	android:enabled
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:726:72-94
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:758:72-94
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:726:19-71
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:758:19-71
 receiver#api.android.demo.broadcastreceiver.SMSReceiver
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:729:9-733:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:761:9-765:20
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:729:19-64
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:761:19-64
 intent-filter#android.provider.Telephony.SMS_RECEIVED
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:730:13-732:29
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:762:13-764:29
 	android:priority
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:730:28-48
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:762:28-48
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:731:17-82
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:763:17-82
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:731:25-79
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:763:25-79
 receiver#api.android.demo.widget.SimpleWidgetDemo
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:734:9-743:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:766:9-775:20
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:734:19-58
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:766:19-58
 intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:735:13-737:29
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:767:13-769:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:736:17-84
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:768:17-84
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:736:25-81
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:768:25-81
 meta-data#android.appwidget.provider
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:739:13-742:25
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:771:13-774:25
 	android:resource
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:741:17-62
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:773:17-62
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:740:17-58
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:772:17-58
 provider#api.android.demo.contentprovider.CustomProvider
-ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:745:9-748:20
+ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:777:9-780:20
 	android:authorities
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:747:13-60
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:779:13-60
 	android:name
-		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:746:13-59
+		ADDED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml:778:13-59
 uses-sdk
 INJECTED from /work/project/android-api-demo/basic-android-demo/src/main/AndroidManifest.xml reason: use-sdk injection requested
 	android:targetSdkVersion

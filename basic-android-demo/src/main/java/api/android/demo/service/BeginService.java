@@ -18,12 +18,10 @@ import android.util.Log;
  */
 public class BeginService extends Service {
 
-	/* (non-Javadoc)
-	 * @see android.app.Service#onBind(android.content.Intent)
-	 */
+
 	@Override
 	public IBinder onBind(Intent arg0) {
-		// TODO Auto-generated method stub
+
 		
 		return myBinder;
 	}
@@ -53,7 +51,7 @@ public class BeginService extends Service {
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startId) {
 		// TODO Auto-generated method stub
-		//֤�������߳�
+
 		for(int i=0;i<100;i++)
 		{
 			try {
@@ -65,7 +63,7 @@ public class BeginService extends Service {
 			}
 		}
 		
-		//���ö��߳�
+
 		/*new Thread(new Runnable(){
 
 			@Override

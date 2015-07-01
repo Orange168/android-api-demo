@@ -19,7 +19,7 @@ public class BeginServiceActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.layout_begservice)  ;
 		Button buttonStart = (Button)findViewById(R.id.buttonStartBeginService)  ;
@@ -28,7 +28,7 @@ public class BeginServiceActivity extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
+
 				Intent _intent = new Intent(BeginServiceActivity.this,BeginService.class) ;
 				startService(_intent)  ;
 			}
@@ -42,7 +42,7 @@ public class BeginServiceActivity extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
+
 				Intent _intent = new Intent(BeginServiceActivity.this,BeginService.class) ;
 				bindService(_intent,conn,Context.BIND_AUTO_CREATE)  ;
 			}
@@ -56,7 +56,7 @@ public class BeginServiceActivity extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
+
 				Log.i(CommonConstants.LOGCAT_TAG_NAME,"Activity Threadid="+Thread.currentThread().getId())  ;
 				Intent _intent2 = new Intent(BeginServiceActivity.this,BeginIntentService.class) ;
 				startService(_intent2) ;
@@ -70,7 +70,7 @@ public class BeginServiceActivity extends Activity {
 
 		@Override
 		public void onServiceConnected(ComponentName name, IBinder service) {
-			// TODO Auto-generated method stub
+
 			MyBinder binder = (MyBinder)service;
             BeginService bindService = binder.getService();
             bindService.MyMethod();
@@ -79,7 +79,7 @@ public class BeginServiceActivity extends Activity {
 
 		@Override
 		public void onServiceDisconnected(ComponentName name) {
-			// TODO Auto-generated method stub
+
 			
 		}
         

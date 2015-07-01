@@ -55,6 +55,8 @@
     <eat-comment/>
     <string name="btnAccelerometerText">加速度感应</string>
     <string name="contentprovider_contactcontract">Stage2_ContentProvider/ContactContracts</string>
+    <string name="fragment_activity">Stage3_AdvanceUI/Fragment/Fragment_at_activity_lifecycle</string>
+    <string name="fragment_basic">Stage3_AdvanceUI/Fragment/Basic</string>
     <string name="gesture_gestureshow1">Stage3_Gesture/GestureShow1</string>
     <string name="gesture_gestureshow2">Stage3_Gesture/GestureShow2</string>
     <string name="gesture_gestureshow3">Stage3_Gesture/GestureShow3</string>
