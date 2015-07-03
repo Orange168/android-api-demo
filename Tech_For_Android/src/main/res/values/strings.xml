@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TFA</string>
     <string name="rx_label">RX</string>
+    <string name="category_sample">tech.orange.tfa.CATEGORY_SAMPLE_CODE</string>
 </resources>

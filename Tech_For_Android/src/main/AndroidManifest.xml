@@ -9,10 +9,10 @@
             <category android:name="android.intent.category.LAUNCHER"/>
         </intent-filter>
     </activity>
-        <activity android:label="@string/rx_label" android:name=".rx.RXListActivity">
+        <activity android:label="@string/rx_label" android:name=".rx.RxAndroidActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.SAMPLE_CODE"/>
+                <category android:name="tech.orange.tfa.CATEGORY_SAMPLE_CODE"/>
             </intent-filter>
         </activity>
     </application>
